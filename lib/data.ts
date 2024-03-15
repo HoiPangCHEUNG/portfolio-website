@@ -1,14 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaPython, FaReact, FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import etaTrackerV2Img from "@/public/eta-tracker-v2.png";
 import patientLoopImg from "@/public/patient-loop-page.svg";
 import dashBoardImg from "@/public/dashboard.png";
 import scmpImg from "@/public/scmp.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -35,7 +31,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduate Engineer",
+    title: "Software Engineer",
+    institution: "LassoMD | Toronto",
+    institutionLink: "https://www.lassomd.com/",
+    description:
+      "Built a comprehensive solution from scratch to elevate dental practice’s patient acquisition and lead management; Integrated Twilio to handle Calling & Messaging service",
+    icon: React.createElement(FaReact),
+    date: "May - Dec 2023",
+  },
+  {
+    title: "Full-Stack Developer",
+    institution: "SCMP",
+    institutionLink: "https://www.scmp.com",
+    description:
+      "Designed and built a customized collaborative online editing system similar to Google Docs which helps journalists to compose articles in asynchronized manner.",
+    icon: React.createElement(FaVuejs),
+    date: "Nov 2020 - Sep 2022",
+  },
+  {
+    title: "Software Developer",
+    institution: "Prisec",
+    institutionLink: "https://www.prisec.co",
+    description:
+      "Developed an authenticator application on top of the OIDC protocol which keeps the identity of user private throughout the process.",
+    icon: React.createElement(FaPython),
+    date: "Jan 2019 - Oct 2020",
+  },
+  {
+    title: "Graduate",
     institution: "CUHK",
     institutionLink: "https://www.cuhk.edu.hk/english/index.html",
     description: "Graduated with a Bachelor degree in Information Engineering.",
@@ -43,31 +66,12 @@ export const experiencesData = [
     date: "2019",
   },
   {
-    title: "Software Developer",
-    institution: "Prisec",
-    institutionLink: "https://www.prisec.co",
-    description:
-      "Developed an authenticator application on top of the OIDC protocol.",
-    icon: React.createElement(FaPython),
-    date: "2019 - 2020",
-  },
-  {
-    title: "Full-Stack Developer",
-    institution: "SCMP",
-    institutionLink: "https://www.scmp.com",
-    description:
-      "Designed and built a customized collaborative online editing system similar to Google Docs.",
-    icon: React.createElement(FaVuejs),
-    date: "2020 - 2022",
-  },
-  {
-    title: "Software Engineer",
-    institution: "LassoMD | Toronto",
-    institutionLink: "https://www.lassomd.com/",
-    description:
-      "Built a comprehensive solution from scratch to elevate dental practice’s patient acquisition and lead management",
-    icon: React.createElement(FaReact),
-    date: "2023",
+    title: "Junior Web Developer",
+    institution: "TabNext",
+    institutionLink: "https://www.tabnext.asia/",
+    description: "Learning and crafting reusable & responsive web components.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Feb - Sep 2018",
   },
 ] as const;
 

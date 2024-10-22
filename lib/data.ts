@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPython, FaReact, FaVuejs } from "react-icons/fa";
+import { FaNodeJs, FaPython, FaReact, FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import etaTrackerV2Img from "@/public/eta-tracker-v2.png";
 import patientLoopImg from "@/public/patient-loop-page.svg";
@@ -31,8 +31,17 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer",
-    institution: "LassoMD | Toronto",
+    title: "Full Stack Developer",
+    institution: "CPDFormula | Markham",
+    institutionLink: "https://cpdformula.com/",
+    description:
+      "Developed and optimised web-based solutions to enhance the online course platform, facilitating smooth course delivery for thousands of users across various professional industries like accounting & law.",
+    icon: React.createElement(FaNodeJs),
+    date: "April 2024 - Present",
+  },
+  {
+    title: "Software Engineer III",
+    institution: "LassoMD | North York",
     institutionLink: "https://www.lassomd.com/",
     description:
       "Built a comprehensive solution from scratch to elevate dental practice’s patient acquisition and lead management; Integrated Twilio to handle Calling & Messaging service",
@@ -127,7 +136,6 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "PostgreSQL",
+  "MySQL",
   "Docker",
-  "GCP",
-  "Vercel",
 ] as const;

@@ -65,7 +65,10 @@ export default function Intro() {
       >
         I'm a <span className="font-bold">Full Stack Developer</span> passionate
         about delivering the best user experience. Skilled in{" "}
-        <span className="font-bold">Vue.js, React.js, Node.js & Python</span>.
+        <span className="font-bold">
+          React, Vue, Typescript, NextJS, and Python
+        </span>
+        .
       </motion.h1>
 
       <motion.div

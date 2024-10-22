@@ -19,9 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hello there! I'm a versatile software engineer with expertise in{" "}
+        Hello there! I'm <span className="font-medium">Lewis</span>, a versatile
+        software engineer with expertise in{" "}
         <span className="font-medium">
-          TypeScript, Node.js, Next.js, React, Vue.js, and Python
+          React, Vue, Typescript, NextJS, and Python
         </span>
         . With a knack for building robust and innovative solutions, I've
         contributed significantly to various projects across different domains.

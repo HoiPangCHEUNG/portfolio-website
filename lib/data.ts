@@ -32,8 +32,8 @@ export const links = [
 export const experiencesData = [
   {
     title: "Full Stack Developer",
-    institution: "CPDFormula | Markham",
-    institutionLink: "https://cpdformula.com/",
+    institution: "LearnFormula | Markham",
+    institutionLink: "https://learnformula.com/",
     description:
       "Developed and optimised web-based solutions to enhance the online course platform, facilitating smooth course delivery for thousands of users across various professional industries like accounting & law.",
     icon: React.createElement(FaNodeJs),
